@@ -24,7 +24,7 @@ namespace :db do
   end
 
   task populateHer: :environment do
-    ser.create!(name: "Emmanuel Serna Sandoval",
+    User.create!(name: "Emmanuel Serna Sandoval",
                  email: "eserna27@gmail.com",
                  password: "41534153",
                  password_confirmation: "41534153",
